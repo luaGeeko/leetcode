@@ -7,8 +7,3 @@ class Solution:
                 # we have found the solution
                 return [difference_tracker[diff], i]
             difference_tracker[nums[i]] = i
-
-
-
-
-        
